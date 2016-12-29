@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-foxitPDFViewer",
-  "version": "1.0.0",
+  "name": "cordova-plugin-foxitpdfviewer",
+  "version": "1.0.1",
   "description": "A PDF viewer based on Foxit RDK",
   "cordova": {
     "id": "FoxitPDFViewer",

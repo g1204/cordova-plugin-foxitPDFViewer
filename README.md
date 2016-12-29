@@ -12,10 +12,8 @@
 
 ## Example
 
-in html
     <button id='theBtn'>open sample PDF</button>
 
-in js
     document.getElementById('theBtn').onclick = function ()
     {
     var pdfViewer = cordova.plugins.FoxitPDFViewer;
