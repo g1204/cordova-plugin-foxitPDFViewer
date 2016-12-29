@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-foxitPDFViewer",
+  "version": "1.0.0",
+  "description": "A PDF viewer based on Foxit RDK",
+  "cordova": {
+    "id": "FoxitPDFViewer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g1204/cordova-plugin-foxitPDFViewer.git"
+  },
+  "keywords": [
+    "PDF",
+    "viewer",
+    "foxit",
+    "RDK",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g1204/cordova-plugin-foxitPDFViewer/issues"
+  },
+  "homepage": "https://github.com/g1204/cordova-plugin-foxitPDFViewer#readme"
+}
