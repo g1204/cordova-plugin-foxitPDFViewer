@@ -16,8 +16,8 @@ exports.getPageCount = function(success, error) {
    exec(success, error, "FoxitPDFViewer", "getPageCount");
 };
                
-exports.gotoPage = function(success, error) {
-   exec(success, error, "FoxitPDFViewer", "gotoPage");
+exports.gotoPage = function(page, success, error) {
+   exec(success, error, "FoxitPDFViewer", "gotoPage", [page]);
 };
 
 exports.gotoNextPage = function(success, error) {
