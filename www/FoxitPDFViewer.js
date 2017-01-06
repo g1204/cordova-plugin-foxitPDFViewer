@@ -8,10 +8,28 @@ exports.openSamplePDF = function(success, error) {
     exec(success, error, "FoxitPDFViewer", "openSamplePDF");
 };
 
-exports.loadExtensions = function(success, error) {
-    exec(success, error, "FoxitPDFViewer", "loadExtensions");
+exports.close = function(success, error) {
+    exec(success, error, "FoxitPDFViewer", "close");
 };
 
-exports.closePDF = function(success, error) {
-    exec(success, error, "FoxitPDFViewer", "closePDF");
+exports.getPageCount = function(success, error) {
+   exec(success, error, "FoxitPDFViewer", "getPageCount");
 };
+               
+exports.gotoPage = function(success, error) {
+   exec(success, error, "FoxitPDFViewer", "gotoPage");
+};
+
+exports.gotoNextPage = function(success, error) {
+    exec(success, error, "FoxitPDFViewer", "gotoNextPage");
+};
+               
+exports.gotoPrevPage = function(success, error) {
+    exec(success, error, "FoxitPDFViewer", "gotoPrevPage");
+};
+
+// 0:single page 1:continuous 2:thumbnail
+exports.setPageLayoutMode = function(mode, success, error) {
+    exec(success, error, "FoxitPDFViewer", "setPageLayoutMode", [mode]);
+};
+

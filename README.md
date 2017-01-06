@@ -2,7 +2,7 @@
 
 ## Installation
 
-    cordova plugin add cordova-plugin-foxitPDFViewer
+    cordova plugin add cordova-plugin-foxitpdfviewer
 
     embed FoxitRDK.framework into your project
 

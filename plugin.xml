@@ -19,6 +19,7 @@
 		<framework src="src/ios/FoxitRDK.framework" custom="true"/>
 		<resource-file src="src/ios/Sample.pdf"/>
 		<!--copy uiextension resources, we're unable to add resources as xcode groups(cordona's bug?), so here have to copy one-by-one -->
+		<resource-file src="src/ios/uiextension-resource/Localizable.strings" target="src/ios/uiextension-resource/Localizable.strings"/>
 		<resource-file src="src/ios/uiextension-resource/AnnotationIcons/icon/Sign Here/accepted.pdf" target="src/ios/uiextension-resource/AnnotationIcons/icon/Sign Here/accepted.pdf"/>
 		<resource-file src="src/ios/uiextension-resource/png/image/Annotation/annot_arrows.png" target="src/ios/uiextension-resource/png/image/Annotation/annot_arrows.png"/>
 		<resource-file src="src/ios/uiextension-resource/png/image2x/Annotation/annot_arrows@2x.png" target="src/ios/uiextension-resource/png/image2x/Annotation/annot_arrows@2x.png"/>
